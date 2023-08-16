@@ -46,7 +46,7 @@ img {
 }
 
 .bg-cover {
-    background-position: center !important;
+    background-position: center center !important;
     background-size: cover !important;
 
 }
@@ -114,6 +114,8 @@ img {
 
 /* Slider */
 .slide1 {
-    background-image: url(../img/bg_banner1.jpg);
-
+    /* Put an overlay */
+    background: linear-gradient(rgba(9, 32, 50, 0.4), rgba(9, 32, 50, 0.6)), url(../img/bg_banner1.jpg);
+    background-repeat: no-repeat;
+    
 }
