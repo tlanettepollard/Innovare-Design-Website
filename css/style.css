@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Open+Sans:wght@400;600;700&family=Satisfy&display=swap');
 
 :root {
-    --brand: #ff4d29;
-    --dark: #092032;
-    --body: #516171;
+    --brand: #029791; 
+    --dark: #17273d;
+    --body: #e7e7e7;
     --border: rgba(0,0,0,0.08);
 }
 
@@ -22,6 +22,7 @@ body {
     font-family: "Barlow", sans-serif;
     line-height: 1.7;
     color: #516171;
+    background-color: var(--body);
 }
 
 h1,
@@ -44,9 +45,15 @@ img {
     width: 100%;
 }
 
+.bg-cover {
+    background-position: center center !important;
+    background-size: cover !important;
+
+}
+
 /* Navbar */
 .top-nav {
-    background-color: #ff4d29;
+    background-color: var(--brand);
 }
 
 .top-nav i,
@@ -84,7 +91,7 @@ img {
 }
 
 .navbar-brand span {
-    color: #ff4d29;
+    color: var(--brand);
 }
 
 /* BTN */
@@ -94,13 +101,21 @@ img {
 
 
 .btn-brand {
-    background-color: #ff4d29;
+    background-color: var(--brand);
     color: #ffffff;
-    border-color: #ff4d29;
+    border-color: var(--brand);
 }
 
 .btn-brand:hover {
     background-color: #fff;
-    border-color: #d64022;
-    color: #d64022;
+    border-color: var(--brand);
+    color: var(--brand);
+}
+
+/* Slider */
+.slide1 {
+    /* Put an overlay */
+    background: linear-gradient(rgba(9, 32, 50, 0.4), rgba(9, 32, 50, 0.6)), url(../img/bg_banner1.jpg);
+    background-repeat: no-repeat;
+    
 }
