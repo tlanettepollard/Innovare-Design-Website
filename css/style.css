@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Open+Sans:wght@400;600;700&family=Satisfy&display=swap');
 
+:root {
+    --brand: #ff4d29;
+    --dark: #092032;
+    --body: #516171;
+    --border: rgba(0,0,0,0.08);
+}
+
+
 *,
 *::before,
 *::after {
@@ -28,7 +36,9 @@ h6 {
 
 a {
     color: #092032;
+    transition: all 0.4s ease;   
 }
+
 
 img {
     width: 100%;
@@ -47,7 +57,50 @@ img {
 .social-links a {
     width: 2.4rem;
     height: 2.4rem;
-    background-color: rgba(255,255, 255, 0.4);
+    background-color: rgba(255,255, 255, 0.3);
     text-decoration: none;
     font-size: 1.4rem;
+}
+
+.social-links a:hover {
+    background-color: #ffffff;
+    color: var(--brand) !important;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: var(--dark);
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: var(--brand);
+}
+
+.navbar .navbar-nav .active {
+    color: var(--brand);
+}
+
+.navbar-brand {
+    color: #092032;
+}
+
+.navbar-brand span {
+    color: #ff4d29;
+}
+
+/* BTN */
+.btn {
+    padding: .9rem 2.4rem;
+}
+
+
+.btn-brand {
+    background-color: #ff4d29;
+    color: #ffffff;
+    border-color: #ff4d29;
+}
+
+.btn-brand:hover {
+    background-color: #fff;
+    border-color: #d64022;
+    color: #d64022;
 }

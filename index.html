@@ -15,7 +15,7 @@
 
 <body>
     <!-- Navbar-->
-    <nav class="top-nav py-1">
+    <nav class="top-nav py-1" id="home">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-auto d-flex justify-content-center align-items-center">
@@ -47,28 +47,38 @@
             </div>
         </div>
     </nav>
-    <nav class="navbar navbar-expand-lg navbar-light bg-body-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow">
+        <div class="container py-2">
+            <a class="navbar-brand fw-bold fs-3" href="#">Innovare<span>.</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav ms-auto pe-4">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active fw-semibold fs-6" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link fw-semibold" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link fw-semibold" href="#service">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        <a href="#portfolio" class="nav-link fw-semibold">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#team" class="nav-link fw-semibold">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#reviews" class="nav-link fw-semibold">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#blog" class="nav-link fw-semibold">Blog</a>
                     </li>
                 </ul>
+                <a href="#" class="btn btn-brand fw-medium fs-5">Contact</a>
             </div>
         </div>
     </nav>
