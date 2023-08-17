@@ -138,7 +138,11 @@ img {
     display: grid;
     place-items: center;
     background-color: rgba(255, 255, 255, 0.2) !important;
-    
+    margin-top: -3rem !important;
+    color: #ffffff !important;
+    font-weight: 700;
+    font-size: 1.2rem;
+    border-radius: 10rem !important;
 }
 
 .owl-prev {
@@ -147,4 +151,9 @@ img {
 
 .owl-next {
     right: 0;
+}
+
+.owl-next:hover, 
+.owl-prev:hover {
+    background-color: var(--brand) !important;
 }
