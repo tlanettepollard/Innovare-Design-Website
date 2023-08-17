@@ -182,3 +182,7 @@ section {
     background-position: center 25%;
     background-repeat: no-repeat;
  }
+
+ .services-title {
+    color: var(--brand);
+ }
