@@ -45,6 +45,11 @@ img {
     width: 100%;
 }
 
+section {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
 .bg-cover {
     background-position: center center !important;
     background-size: cover !important;
@@ -157,3 +162,5 @@ img {
 .owl-prev:hover {
     background-color: var(--brand) !important;
 }
+
+/* About */
