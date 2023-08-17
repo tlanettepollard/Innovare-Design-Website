@@ -113,9 +113,38 @@ img {
 }
 
 /* Slider */
+
 .slide1 {
     /* Put an overlay */
-    background: linear-gradient(rgba(9, 32, 50, 0.4), rgba(9, 32, 50, 0.6)), url(../img/bg_banner1.jpg);
+    background: linear-gradient(rgba(9, 32, 50, 0.4), rgba(9, 32, 50, 0.6)), url('../img/bg_banner1.jpg');
     background-repeat: no-repeat;
     
+}
+
+.slide2 {
+    /* Put an overlay */
+    background: linear-gradient(rgba(9, 32, 50, 0.4), rgba(9, 32, 50, 0.6)), url(../img/bg_banner2.jpg);
+    background-repeat: no-repeat;
+    
+}
+
+/* Owl Carousel */
+.owl-prev,
+.owl-next {
+    position: absolute;
+    top: 50%;
+    width: 6rem !important;
+    height: 6rem !important;
+    display: grid;
+    place-items: center;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    
+}
+
+.owl-prev {
+    left: 0;
+}
+
+.owl-next {
+    right: 0;
 }
