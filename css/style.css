@@ -5,6 +5,11 @@
     --dark: #17273d;
     --body: #e7e7e7;
     --border: rgba(0,0,0,0.08);
+    --accent1: #b7ada1;
+    --accent2: #3d5872;
+    --accent3: #51aeb0;
+
+
 }
 
 
@@ -50,11 +55,6 @@ section {
     padding-bottom: 8rem;
 }
 
-.bg-cover {
-    background-position: center center !important;
-    background-size: cover !important;
-
-}
 
 /* Navbar */
 .top-nav {
@@ -123,15 +123,25 @@ section {
     /* Put an overlay */
     background: linear-gradient(rgba(9, 32, 50, 0.4), rgba(9, 32, 50, 0.6)), url('../img/bg_banner1.jpg');
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     
 }
 
 .slide2 {
     /* Put an overlay */
-    background: linear-gradient(rgba(9, 32, 50, 0.4), rgba(9, 32, 50, 0.6)), url(../img/bg_banner2.jpg);
+    background: linear-gradient(rgba(9, 32, 50, 0.4), rgba(9, 32, 50, 0.6)), url(../img/bg_bannertwo.jpg);
     background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+
+    @media screen and (min-width: 768px) {
+        background-position: center;
+    }
     
 }
+
+
 
 /* Owl Carousel */
 .owl-prev,
@@ -164,3 +174,11 @@ section {
 }
 
 /* About */
+
+/* Milestones */
+ #milestones {
+    background: linear-gradient(rgba(81, 174, 176, 0.85), rgba(81, 174, 176, 0.85)), url(../img/bg_banner2.jpg);
+    background-size: cover;
+    background-position: center 25%;
+    background-repeat: no-repeat;
+ }
