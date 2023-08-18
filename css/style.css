@@ -194,7 +194,8 @@ section {
  }
  .services-title,
  .projects-title,
- .team-title {
+ .team-title,
+ .blog-title {
     color: var(--brand);
  }
 
@@ -328,3 +329,17 @@ section {
     border-radius: 10rem;
     margin: auto;
  }
+
+ .review h5 {
+    margin-top: 1.6rem;
+    margin-bottom: .4rem;
+ }
+
+ .review h3 {
+    margin-top: 2.6rem;
+    margin-bottom: 2.6rem;
+    font-size: 2.2rem;
+    line-height: 1.7;
+ }
+
+ /* Blog Posts*/
