@@ -173,6 +173,10 @@ section {
     background-color: var(--brand) !important;
 }
 
+.owl-dot {
+    color: var(--brand);
+}
+
 /* About */
 
 /* Milestones */
