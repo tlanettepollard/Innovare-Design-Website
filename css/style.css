@@ -292,3 +292,9 @@ section {
 }
 
  /* Reviews */
+ #reviews {
+    background: linear-gradient(-90deg, rgba(23, 39, 61, 0.8), rgba(23, 39, 61, 0.8)), url(../img/bg_banner2.jpg), #082032;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
