@@ -298,3 +298,33 @@ section {
     background-position: center;
     background-repeat: no-repeat;
  }
+
+ .review {
+    z-index: 2;
+    margin: 1.5rem;
+    max-width: 76.8rem;
+    margin: auto;
+ }
+
+ .review small,
+ .review .bxs-star,
+ .review .bxs-star-half {
+    color: var(--brand);
+ }
+
+ .review .bxs-quote-alt-left {
+    font-size: 12rem;
+    position: absolute;
+    opacity: 0.1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+ }
+
+ .review img {
+    width: 8rem !important;
+    height: 8rem; 
+    border-radius: 10rem;
+    margin: auto;
+ }
