@@ -183,8 +183,19 @@ section {
     background-repeat: no-repeat;
  }
 
- .services-title {
+ .service {
+    padding: 3.2rem;
+    background-color: #ffffff;
+ }
+ .services-title,
+ .projects-title {
     color: var(--brand);
  }
+
+ .service h5 {
+    margin-top: 2.4rem;
+    margin-bottom: 1.4rem;
+ }
+
 
  
