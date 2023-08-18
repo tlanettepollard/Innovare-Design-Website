@@ -19,7 +19,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	outline: 1px solid black;
+	//outline: 1px solid black;
 }
 
 
@@ -35,7 +35,7 @@ h2,
 h3, 
 h4,
 h5,
-h6 {
+h6, .display-1, .display-2, .display-3, .display-4 {
      font-weight: 700 !important;
      color: #092032;
 }
@@ -66,7 +66,7 @@ section {
     vertical-align: middle;
 }
 
-.social-links a {
+.social-icons a {
     width: 2.4rem;
     height: 2.4rem;
     background-color: rgba(255,255, 255, 0.3);
@@ -74,7 +74,7 @@ section {
     font-size: 1.4rem;
 }
 
-.social-links a:hover {
+.social-icons a:hover {
     background-color: #ffffff;
     color: var(--brand) !important;
 }
@@ -198,12 +198,7 @@ section {
     color: var(--brand);
  }
 
- .service-intro p,
- .project-intro p,
- .team-intro p
-  {
-    width: 39%;
- }
+ 
  .service h5 {
     margin-top: 2.4rem;
     margin-bottom: 1.4rem;
@@ -236,3 +231,64 @@ section {
     left: 10%;
     bottom: 10%;
  }
+
+ /* Team */
+ .team-member .image {
+    z-index: 2;
+ }
+
+ .team-member .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: -10%;
+    background-color: rgba(2, 151, 146, 0.7);
+    opacity: 0;
+    transition: all 0.4s ease;
+ }
+
+ .team-member h5 {
+    margin-top: 1.6rem;
+    margin-bottom: .4rem;
+ }
+
+ .team-member .social-icons {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    opacity: 0;
+    transition: all 0.4s ease;
+ }
+
+ .team-member .social-icons a {
+    width: 4rem;
+    height: 4rem;
+    background-color: white;
+    text-decoration: none;
+    font-size: 2.4rem;
+    border-radius: 100%;
+
+ }
+
+ .team-member .social-icons i {
+    color: #51aeb0 !important;
+ }
+
+ .team-member .social-icons .bxl-facebook {
+    color: white;
+ }
+
+ .team-member:hover .social-icons {
+    top: 50%;
+    opacity: 1;
+ }
+
+.team-member:hover .overlay {
+    top: 0%;
+    opacity: 1;
+}
+
+ /* Reviews */
