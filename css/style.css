@@ -193,12 +193,14 @@ section {
     background-color: #ffffff;
  }
  .services-title,
- .projects-title {
+ .projects-title,
+ .team-title {
     color: var(--brand);
  }
 
  .service-intro p,
- .project-intro p
+ .project-intro p,
+ .team-intro p
   {
     width: 39%;
  }
