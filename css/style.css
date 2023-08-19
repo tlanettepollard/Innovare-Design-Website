@@ -421,3 +421,9 @@ footer .social-icons i:hover {
    background-repeat: no-repeat;
    min-height: 30rem;
 }
+
+.form-control:focus {
+   box-shadow: none;
+   border-color: var(--brand);
+}
+
