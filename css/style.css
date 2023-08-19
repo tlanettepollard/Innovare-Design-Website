@@ -130,7 +130,7 @@ section {
 
 .slide2 {
     /* Put an overlay */
-    background: linear-gradient(rgba(9, 32, 50, 0.4), rgba(9, 32, 50, 0.6)), url(../img/bg_bannertwo.jpg);
+    background: linear-gradient(rgba(9, 32, 50, 0.4), rgba(9, 32, 50, 0.6)), url(../img/bg_banner3.jpg);
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
