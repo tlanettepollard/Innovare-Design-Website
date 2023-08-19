@@ -413,3 +413,11 @@ footer .social-icons i:hover {
 }
 
 /* Contact Modal */
+
+.contact-image {
+   background-image: url(../img/contact2.jpg);
+   background-size: cover;
+   background-position: center 50%;
+   background-repeat: no-repeat;
+   min-height: 30rem;
+}
