@@ -11,6 +11,7 @@
     - Smooth scrolling in each section
 * Owl Carousel Slider
 * Google Font: Barlow 
+* W3C Validated
 
 ### Demo
 [Innovare Design](https://innovare-design-website.vercel.app/)
